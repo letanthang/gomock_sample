@@ -13,8 +13,12 @@ interface that can be mocked with GoMock. The interesting files are:
 * `mock_user_test.go`: The generated mock code. See ../gomock/matchers.go
     for the `go:generate` command used to generate it.
 
-To run the test,
 
-```bash
-go test github.com/golang/mock/sample
+Generate code
+```
+mockgen  -destination=mock_user_test.go -package=user_test  .  Index,Embed,Embedded 
+```
+Run the test
+```test
+go test 
 ```

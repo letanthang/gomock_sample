@@ -1,4 +1,4 @@
-module app
+module github.com/letanthang/gomock_sample
 
 go 1.16
 

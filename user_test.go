@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	user "github.com/golang/mock/sample"
-	"github.com/golang/mock/sample/imp1"
+	user "github.com/letanthang/gomock_sample"
+	"github.com/letanthang/gomock_sample/imp1"
 )
 
 func TestRemember(t *testing.T) {

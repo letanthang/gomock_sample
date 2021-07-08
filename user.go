@@ -18,15 +18,15 @@ import (
 
 	t2 "text/template"
 
-	"app/imp1"
+	"github.com/letanthang/gomock_sample/imp1"
 
 	// Dependencies outside the standard library.
 
-	renamed2 "app/imp2"
+	renamed2 "github.com/letanthang/gomock_sample/imp2"
 
-	. "app/imp3"
+	. "github.com/letanthang/gomock_sample/imp3"
 
-	imp_four "app/imp4"
+	imp_four "github.com/letanthang/gomock_sample/imp4"
 )
 
 // calls itself "imp_four"
